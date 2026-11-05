@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env/
+
+# API keys and secrets — NEVER commit these
+.env
+*.pem
+*api_key*
+*apikey*
+secrets.json
+
+# Rendered episode outputs (keep repo light; samples/ is the exception)
+*.mp4
+!samples/*.mp4
+*.mp3
+!samples/*.mp3
+*.wav
+
+# Pipeline working dirs
+runs/
+assets/
+tmp/
+.cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
