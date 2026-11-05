@@ -1,0 +1,57 @@
+{
+  "story_title": "জাদুর লাউ",
+  "language": "bn",
+  "duration_s": 81.68,
+  "scenes": [
+    {
+      "index": 0,
+      "qa_score": 0.96,
+      "retries": 0
+    },
+    {
+      "index": 1,
+      "qa_score": 0.94,
+      "retries": 0
+    },
+    {
+      "index": 2,
+      "qa_score": 0.94,
+      "retries": 0
+    },
+    {
+      "index": 3,
+      "qa_score": 0.91,
+      "retries": 0
+    },
+    {
+      "index": 4,
+      "qa_score": 0.93,
+      "retries": 1
+    },
+    {
+      "index": 5,
+      "qa_score": 0.92,
+      "retries": 0
+    },
+    {
+      "index": 6,
+      "qa_score": 0.92,
+      "retries": 0
+    },
+    {
+      "index": 7,
+      "qa_score": 0.91,
+      "retries": 0
+    }
+  ],
+  "api_cost_usd": 0.1513,
+  "wall_time_s": 1320,
+  "model_ids": [
+    "muse-image-1.0",
+    "muse-spark-1.3-contributor"
+  ],
+  "timestamp": "2026-11-03T16:27:00+06:00",
+  "status": "ok",
+  "episode": "samples/episode1-jadur-lau.mp4",
+  "notes": "First full ToonForge episode: story->script->bible->art->qa->voice->assemble, all automated."
+}
