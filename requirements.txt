@@ -1,0 +1,19 @@
+# ToonForge — Meta Global AI Developer Hackathon 2026 (Indie track)
+# Python 3.12. System ffmpeg required (ffmpeg 8.x): `ffmpeg -version`.
+
+# Meta Model API via the OpenAI SDK (non-streaming calls only).
+# Point the client at base_url="https://api.meta.ai/v1" with MODEL_API_KEY.
+openai>=1.0
+
+# One-page demo UI (paste story -> Generate -> preview/download).
+gradio>=4.0
+
+# Structured-output validation for script.json / bible.json / motionplan.json.
+pydantic>=2.0
+
+# Local .env loading for MODEL_API_KEY (never commit the key itself).
+python-dotenv>=1.0
+
+# Optional convenience wrapper; the renderer shells out to system ffmpeg
+# directly (see toonforge/assemble/assemble.py), so this is not required.
+ffmpeg-python>=0.2.0
